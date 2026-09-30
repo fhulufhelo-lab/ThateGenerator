@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { PDFDocument } from "pdf-lib";
@@ -42,15 +43,30 @@ function loadOverlayMap(): Promise<OverlayMap> {
   return overlayMapPromise;
 }
 
+function resolveFontPath(key: FontKey): string {
+  const candidatePaths = [
+    process.env[fontEnvironmentVariables[key]],
+    path.join(process.cwd(), "fonts", defaultFontFiles[key]),
+    path.join("/usr/share/fonts/truetype/dejavu", key === "bold" ? "DejaVuSans-Bold.ttf" : "DejaVuSans.ttf"),
+    key === "body" ? "C:\\Windows\\Fonts\\arial.ttf" : key === "bold" ? "C:\\Windows\\Fonts\\arialbd.ttf" : "C:\\Windows\\Fonts\\calibri.ttf",
+  ].filter((candidate): candidate is string => Boolean(candidate));
+
+  for (const candidate of candidatePaths) {
+    const resolved = path.resolve(candidate);
+    if (existsSync(resolved)) {
+      return resolved;
+    }
+  }
+
+  return path.resolve(candidatePaths[0] ?? path.join(process.cwd(), "fonts", defaultFontFiles[key]));
+}
+
 function loadFontBytes(key: FontKey): Promise<Uint8Array> {
   let fontBytesPromise = fontBytesPromises.get(key);
   if (!fontBytesPromise) {
-    const configuredPath = process.env[fontEnvironmentVariables[key]];
-    const filePath = configuredPath
-      ? path.resolve(configuredPath)
-      : path.join(process.cwd(), "fonts", defaultFontFiles[key]);
+    const filePath = resolveFontPath(key);
     fontBytesPromise = readFile(filePath).catch(() => {
-      throw new Error(`Required PDF font is unavailable. Configure ${fontEnvironmentVariables[key]}.`);
+      throw new Error(`Required PDF font is unavailable. Configure ${fontEnvironmentVariables[key]} or add the bundled font to the repo's fonts folder.`);
     });
     fontBytesPromises.set(key, fontBytesPromise);
   }

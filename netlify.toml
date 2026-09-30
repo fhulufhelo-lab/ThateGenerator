@@ -4,9 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "22"
-  PDF_FONT_ARIAL_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
-  PDF_FONT_ARIAL_BOLD_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-  PDF_FONT_CALIBRI_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+  PDF_FONT_ARIAL_PATH = "fonts/Arial.ttf"
+  PDF_FONT_ARIAL_BOLD_PATH = "fonts/Arial-Bold.ttf"
+  PDF_FONT_CALIBRI_PATH = "fonts/Calibri.ttf"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"

@@ -94,6 +94,8 @@ export async function POST(request: Request): Promise<Response> {
       },
     });
   } catch (error) {
+    console.error("PDF generation failed", error);
+
     if (error instanceof PdfFieldOverflowError) {
       return errorResponse(400, "VALIDATION_ERROR", "One or more fields do not fit the approved PDF layout.", {
         [error.field]: error.message,
