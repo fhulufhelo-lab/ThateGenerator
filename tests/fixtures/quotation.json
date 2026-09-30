@@ -1,0 +1,26 @@
+{
+  "documentType": "quotation",
+  "documentNumber": "QUO-1001",
+  "purchaseOrderNumber": "",
+  "date": "2026-09-30",
+  "salesRep": "Taylor",
+  "customer": {
+    "name": "Cable Trading House",
+    "attention": "Purchasing",
+    "phone": "0123456789",
+    "addressLine1": "26 Borax Street",
+    "addressLine2": "Alrode",
+    "addressLine3": "Alberton",
+    "postalCode": "1451"
+  },
+  "contact": {
+    "mobile": "0820000000",
+    "email": "purchasing@example.com",
+    "secondaryContact": ""
+  },
+  "taxRate": 15,
+  "items": [
+    { "quantity": 2, "description": "Power cable", "unitPrice": 10.25 },
+    { "quantity": 3, "description": "Connectors", "unitPrice": 4.1 }
+  ]
+}

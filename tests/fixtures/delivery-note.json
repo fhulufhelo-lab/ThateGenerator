@@ -1,0 +1,25 @@
+{
+  "documentType": "delivery_note",
+  "documentNumber": "DN-1001",
+  "purchaseOrderNumber": "PO-1001",
+  "date": "2026-09-30",
+  "salesRep": "Taylor",
+  "customer": {
+    "name": "Cable Trading House",
+    "attention": "Receiving",
+    "phone": "0123456789",
+    "addressLine1": "26 Borax Street",
+    "addressLine2": "Alrode",
+    "addressLine3": "Alberton",
+    "postalCode": "1451"
+  },
+  "contact": {
+    "mobile": "0820000000",
+    "email": "receiving@example.com",
+    "secondaryContact": ""
+  },
+  "taxRate": 15,
+  "items": [
+    { "quantity": 2, "description": "Power cable", "unitPrice": 10.25 }
+  ]
+}

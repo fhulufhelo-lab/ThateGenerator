@@ -1,0 +1,26 @@
+{
+  "documentType": "invoice",
+  "documentNumber": "INV-1001",
+  "purchaseOrderNumber": "PO-44",
+  "date": "2026-09-18",
+  "salesRep": "Taylor",
+  "customer": {
+    "name": "Cable Trading House",
+    "attention": "Accounts",
+    "phone": "0123456789",
+    "addressLine1": "26 Borax Street",
+    "addressLine2": "Alrode",
+    "addressLine3": "Alberton",
+    "postalCode": "1451"
+  },
+  "contact": {
+    "mobile": "0820000000",
+    "email": "accounts@example.com",
+    "secondaryContact": ""
+  },
+  "taxRate": 15,
+  "items": [
+    { "quantity": 2, "description": "Power cable", "unitPrice": 10.25 },
+    { "quantity": 3, "description": "Connectors", "unitPrice": 4.1 }
+  ]
+}

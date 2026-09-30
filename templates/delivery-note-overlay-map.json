@@ -1,0 +1,92 @@
+{
+  "templateVersion": "1.0.0",
+  "sourceFile": "COD 1.pdf",
+  "sourceSha256": "323E8913C60A416BF046D2967A4398CDBEE8E03B5BA007AECDB5E8C85F1FB018",
+  "page": {
+    "count": 2,
+    "width": 595.2756,
+    "height": 841.8898,
+    "units": "pt",
+    "origin": "top-left"
+  },
+  "fonts": {
+    "body": "Arial",
+    "bold": "Arial Bold",
+    "contact": "Calibri",
+    "signatureLabels": "Helvetica Bold Oblique"
+  },
+  "fields": {
+    "documentType": { "page": 1, "bbox": [415.2, 54.31, 500.0, 65.04], "font": "body", "fontSize": 9.6, "align": "left", "evidence": "observed-source-start-position" },
+    "registrationNumber": { "page": 1, "bbox": [406.8, 65.43, 570.0, 72.8], "font": "bold", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "vatNumber": { "page": 1, "bbox": [404.4, 73.83, 570.0, 81.2], "font": "bold", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "documentNumber": { "page": 1, "bbox": [404.4, 99.03, 570.0, 106.4], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "purchaseOrderNumber": { "page": 1, "bbox": [404.4, 107.43, 570.0, 114.8], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "inferred-from-row-alignment" },
+    "date": { "page": 1, "bbox": [404.4, 115.83, 570.0, 123.2], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "salesRep": { "page": 1, "bbox": [404.4, 124.23, 570.0, 131.6], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "supplier.addressLine1": { "page": 1, "bbox": [52.8, 132.63, 330.0, 140.0], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "supplier.addressLine2": { "page": 1, "bbox": [52.8, 141.03, 330.0, 148.4], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "supplier.addressLine3": { "page": 1, "bbox": [52.8, 149.43, 330.0, 156.8], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "contact.telephone": { "page": 1, "bbox": [406.8, 166.23, 570.0, 173.6], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "customer.name": { "page": 1, "bbox": [52.8, 174.63, 330.0, 182.0], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "contact.mobile": { "page": 1, "bbox": [406.8, 174.63, 570.0, 182.0], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "customer.attention": { "page": 1, "bbox": [52.8, 183.03, 330.0, 190.4], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "inferred-from-row-alignment" },
+    "contact.email": { "page": 1, "bbox": [406.2, 183.03, 570.0, 190.4], "font": "contact", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "customer.phone": { "page": 1, "bbox": [52.8, 191.43, 330.0, 198.8], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "inferred-from-row-alignment" },
+    "contact.secondaryContact": { "page": 1, "bbox": [406.2, 191.12, 570.0, 199.18], "font": "contact", "fontSize": 6.6, "align": "left", "evidence": "observed-value-label-needs-review" },
+    "customer.addressLine1": { "page": 1, "bbox": [52.8, 199.83, 330.0, 207.2], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "customer.addressLine2": { "page": 1, "bbox": [52.8, 208.23, 330.0, 215.6], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "customer.addressLine3": { "page": 1, "bbox": [52.8, 216.63, 330.0, 224.0], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "customer.postalCode": { "page": 1, "bbox": [52.8, 225.63, 330.0, 233.0], "font": "body", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "taxRate": { "page": 1, "bbox": [408.0, 225.63, 505.2, 233.0], "font": "bold", "fontSize": 6.6, "align": "center", "evidence": "centered-inside-observed-cell" },
+    "items[].quantity": { "page": 1, "bbox": [27.6, 300.03, 48.6, 307.4], "font": "body", "fontSize": 6.6, "align": "left", "rowStep": 10.8, "evidence": "observed-source-start-position-with-divider-padding" },
+    "items[].description": { "page": 1, "bbox": [52.8, 300.03, 332.4, 307.4], "font": "body", "fontSize": 6.6, "align": "left", "rowStep": 10.8, "evidence": "observed-first-row-and-blank-second-row" },
+    "items[].unitPrice": { "page": 1, "bbox": [332.4, 300.03, 391.2, 307.4], "font": "body", "fontSize": 6.6, "align": "right", "rowStep": 10.8, "evidence": "observed-first-row-and-blank-second-row" },
+    "items[].amount": { "page": 1, "bbox": [407.4, 300.03, 499.0, 307.4], "font": "body", "fontSize": 6.6, "align": "right", "rowStep": 10.8, "evidence": "observed-first-row-and-blank-second-row" },
+    "totals.subtotal": { "page": 1, "bbox": [406.8, 320.43, 499.0, 327.8], "font": "body", "fontSize": 6.6, "align": "right", "evidence": "observed" },
+    "totals.vat": { "page": 1, "bbox": [406.8, 328.83, 499.0, 336.2], "font": "body", "fontSize": 6.6, "align": "right", "evidence": "observed" },
+    "totals.total": { "page": 1, "bbox": [406.8, 337.23, 499.0, 344.6], "font": "body", "fontSize": 6.6, "align": "right", "evidence": "observed" },
+    "company.name": { "page": 1, "bbox": [19.8, 414.03, 250.0, 421.4], "font": "bold", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "company.bank": { "page": 1, "bbox": [52.8, 430.83, 250.0, 438.2], "font": "bold", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "company.accountNumber": { "page": 1, "bbox": [52.8, 439.23, 250.0, 446.6], "font": "bold", "fontSize": 6.6, "align": "left", "evidence": "observed" },
+    "company.accountType": { "page": 1, "bbox": [52.8, 447.63, 250.0, 455.0], "font": "bold", "fontSize": 6.6, "align": "left", "evidence": "observed" }
+  },
+  "continuation": {
+    "evidence": "inferred-from-page-1-artwork",
+    "itemCapacity": 42,
+    "titleBand": [18.0, 54.0, 510.6, 65.4],
+    "tableHeaderBand": [18.0, 285.0, 510.6, 297.0],
+    "tableBodyTop": 296.4,
+    "tableBodyBottom": 775.2,
+    "rowHeight": 11.4,
+    "rowTextTop": 300.03,
+    "rowTextStep": 10.8,
+    "verticalRules": [18.0, 51.0, 327.6, 402.0, 403.2, 510.0],
+    "horizontalRuleThickness": 0.6,
+    "headerFill": [0.8666667, 0.9215534, 0.9686275],
+    "titleFill": [0.2, 0.2470436, 0.3097887],
+    "title": { "bbox": [404.4, 55.0, 500.0, 64.0], "font": "body", "fontSize": 9.6, "align": "right" },
+    "documentNumber": { "bbox": [20.0, 70.0, 300.0, 77.4], "font": "bold", "fontSize": 6.6, "align": "left" },
+    "headers": {
+      "quantity": { "bbox": [20.4, 288.63, 51.0, 296.0], "font": "bold", "fontSize": 6.6, "align": "left" },
+      "description": { "bbox": [52.8, 288.63, 327.6, 296.0], "font": "bold", "fontSize": 6.6, "align": "left" },
+      "unitPrice": { "bbox": [349.2, 288.63, 402.0, 296.0], "font": "bold", "fontSize": 6.6, "align": "left" },
+      "amount": { "bbox": [442.8, 288.63, 500.0, 296.0], "font": "bold", "fontSize": 6.6, "align": "left" }
+    },
+    "totals": {
+      "firstRowTop": 784.0,
+      "rowStep": 8.4,
+      "labelRight": 399.0,
+      "amountLeft": 406.8,
+      "amountRight": 499.0
+    }
+  },
+  "staticRegions": [
+    "Printed labels, borders, table headings, payment instruction label, and signature lines",
+    "Name, DATE, and Signature labels; architecture requires the signature area to stay blank"
+  ],
+  "reviewNotes": [
+    "The source includes no sample value for purchaseOrderNumber, customer.attention, or customer.phone; their boxes follow the adjacent row alignment and are marked inferred.",
+    "The source places wanga@thate.co.za in the row beneath Email, while the left side labels that row Phone. contact.secondaryContact is mapped to the observed right-side value box; confirm this mapping before Phase 2.",
+    "The supplied document has one populated item row and one blank row. Main-page row positions are observed; continuation-page coordinates extrapolate the same artwork and require visual approval."
+  ]
+}

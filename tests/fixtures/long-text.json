@@ -1,0 +1,16 @@
+{
+  "documentType": "quotation",
+  "documentNumber": "QUO-LONG-01",
+  "date": "2026-09-30",
+  "salesRep": "Taylor",
+  "customer": { "name": "Long Text Test Customer" },
+  "contact": {},
+  "taxRate": 15,
+  "items": [
+    {
+      "quantity": 1,
+      "description": "This product description is intentionally long to exercise the fixed PDF field width and must be rejected instead of overlapping the approved template labels and borders. Repeat this complete sentence to exceed the available cell space. This product description is intentionally long to exercise the fixed PDF field width and must be rejected instead of overlapping the approved template labels and borders.",
+      "unitPrice": 1
+    }
+  ]
+}

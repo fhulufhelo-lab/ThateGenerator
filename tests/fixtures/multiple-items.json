@@ -1,0 +1,27 @@
+{
+  "documentType": "invoice",
+  "documentNumber": "INV-MULTI-01",
+  "purchaseOrderNumber": "PO-MULTI-01",
+  "date": "2026-09-30",
+  "salesRep": "Taylor",
+  "customer": {
+    "name": "Cable Trading House",
+    "attention": "Accounts",
+    "phone": "0123456789",
+    "addressLine1": "26 Borax Street",
+    "addressLine2": "Alrode",
+    "addressLine3": "Alberton",
+    "postalCode": "1451"
+  },
+  "contact": {
+    "mobile": "0820000000",
+    "email": "accounts@example.com",
+    "secondaryContact": ""
+  },
+  "taxRate": 15,
+  "items": [
+    { "quantity": 1, "description": "First item", "unitPrice": 10 },
+    { "quantity": 2, "description": "Second item", "unitPrice": 20 },
+    { "quantity": 3, "description": "Third item", "unitPrice": 30 }
+  ]
+}
